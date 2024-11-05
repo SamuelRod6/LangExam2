@@ -81,7 +81,7 @@ end
 
 # MAIN
 
-# Implementación de un programa que permite evaluar y mostrar expresiones aritméticas en notación prefija y postfija.
+# Implementamos un programa que permita evaluar y mostrar expresiones aritméticas en notación prefija y postfija.
 def main
   while true
     print "Ingrese un comando: "

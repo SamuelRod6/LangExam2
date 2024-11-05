@@ -50,8 +50,8 @@ def f_iterative(n, alpha, beta)
     results[i] = i
   end
 
-  # Esta parte corresponde a la segunda parte de la función para n >= alpha * beta. Corresponde en agregar al acumulado los valores del arreglo
-  # que caen en el rango de alpha * beta a n. Y aguardar el resultado en el arreglo. Después de esto, el resultado de f(n) se encuentra en
+  # Esta parte corresponde a la segunda parte de la función para n >= alpha * beta. Corresponde a agregar al acumulado los valores del arreglo
+  # que caen en el rango de alpha * beta a n, y aguardar el resultado en el arreglo. Después de esto, el resultado de f(n) se encuentra en
   # results[n].
   (alpha * beta..n).each do |i|
     sum = 0
