@@ -1,6 +1,7 @@
 # Programa de la pregunta 3.c
 
 # FUNCIONES
+
 # Creamos una clase que usa un iterador para ordenar una lista
 class SortIterator
   def initialize(list)
@@ -33,6 +34,7 @@ class SortIterator
 end
 
 # PRUEBA
+
 list = [1, 3, 3, 2, 1]
 iterator = SortIterator.new(list)
 

@@ -4,6 +4,7 @@
 #include <math.h>
 
 // FUNCIONES
+
 // Función para calcular el coeficiente binomial
 int comb(int n, int k)
 {
@@ -67,6 +68,7 @@ int maldad(int n)
 }
 
 // MAIN
+
 int main()
 {
     printf("%d\n", maldad(50));

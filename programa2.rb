@@ -1,5 +1,7 @@
 # Programa 2 de la pregunta 1
 
+# FUNCIONES
+
 # Definimos el método merge_sort que implementa el algoritmo de merge sort.
 # Este algoritmo es recursivo y divide el array en mitades hasta que cada subarray tiene un solo elemento.
 # Para lo cual, tenemos por defecto el caso base que es cuando el array tiene un solo elemento.
@@ -38,6 +40,7 @@ def merge(left, right)
   result + left[i..-1] + right[j..-1]
 end
 
-# Ejemplo de uso
+# PRUEBA
+
 array = [128, 30, 52, 5, 9, 96, 17]
-puts merge_sort(array).inspect # Imprime [5, 9, 17, 30, 52, 96, 128]
+puts merge_sort(array).inspect

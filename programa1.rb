@@ -1,5 +1,7 @@
 # Programa 1 de la pregunta 1
 
+# FUNCIONES
+
 # Definimos primero la funcion f(n) que nos dice como calcular el siguiente número
 def f(n)
   if n.even?
@@ -19,8 +21,9 @@ def count(n)
   dist
 end
 
-# Ejemplos de uso:
-puts count(42)  # Imprime 8
-puts count(5)   # Imprime 5
-puts count(1)   # Imprime 0
-puts count(128) # Imprime 7
+# PRUEBAS
+
+puts count(42)
+puts count(5)
+puts count(1)
+puts count(128)

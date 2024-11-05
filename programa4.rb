@@ -1,6 +1,7 @@
 # Programa de la pregunta 4
 
 # VARIABLES
+
 # Generamos los valores de alpha y beta, de la manera especificada.
 X = 0
 Y = 2
@@ -10,6 +11,7 @@ alpha = ((X + Y) % 5) + 3
 beta = ((Y + Z) % 5) + 3
 
 # FUNCIONES
+
 # Definimos una función para calcular f(n) de manera recursiva.
 def f_recursive(n, alpha, beta)
   if n < alpha * beta
@@ -62,6 +64,7 @@ def f_iterative(n, alpha, beta)
 end
 
 # PRUEBAS
+
 # Para comparar los tiempos de ejecución de las tres funciones, utilizaremos la libreria Benchmark de Ruby.
 require 'benchmark'
 
